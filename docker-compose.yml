@@ -19,7 +19,7 @@ services:
     deploy:
       replicas: 3
   recharge:
-    image: bammidilokesh13/paytmrecharge:latest
+    image: bammidilokesh13/paytmrecharge
     ports:
       - "84:80"
     deploy:
